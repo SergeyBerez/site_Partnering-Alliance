@@ -20,7 +20,7 @@ li {
   margin: 0 auto;
   max-width: 1440px;
   /* min-height: 720px; */
-  background-image: url('/img/Group.png');
+  background-image: url('./img/Group.png');
   background-size: cover;
 }
 .header-nav {
@@ -174,7 +174,7 @@ border: 1px solid #000; */
   margin: 0 auto;
   max-width: 1440px;
   /* min-height: 480px; */
-  background-image: url('/img/Rectangle 5.png');
+  background-image: url('./img/Rectangle 5.png');
   background-size: cover;
 }
 .call-flex {
@@ -239,7 +239,7 @@ border: 1px solid #000; */
   display: block;
   content: '';
   right: 100%;
-  background-image: url('img/Partnering.png');
+  background-image: url('./img/Partnering.png');
   background-size: cover;
   line-height: 24px;
 }
