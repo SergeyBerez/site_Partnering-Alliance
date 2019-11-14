@@ -1,0 +1,88 @@
+
+/* гланвый блок особенносит */
+.features-section {
+  margin: 0 auto;
+  max-width: 1440px;
+  min-height: 1785px;
+  background-color: #e4e1e1;
+}
+
+.features-flex {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
+.featuresr_h1 {
+  color: #064766;
+  font-size: 36px;
+}
+/*  конец главно блока особеносит */
+
+/*   общие стили для блоков особеннсти  */
+.features_p {
+  font-size: 16px;
+  color: #373737;
+}
+
+.features-flex--bg {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  margin: 0 -50px;
+  background: #ffffff;
+  min-height: 400px;
+}
+.features_title {
+  /* padding: 0 30px; */
+  /* max-width: 1030px;
+
+border: 1px solid #000; */
+}
+.features_img--pl {
+  padding-left: 100px;
+}
+.features_img--pr {
+  padding-right: 100px;
+}
+.features_h2 {
+  max-width: 600px;
+  font-size: 24px;
+  color: #22769f;
+}
+
+/* секция с фото фоном */
+.call-section-bg {
+  margin: 0 auto;
+  max-width: 1440px;
+  /* min-height: 480px; */
+  background-image: url("../img/Rectangle 5.png");
+  background-size: cover;
+}
+.call-flex {
+  margin: 0 auto;
+  max-width: 970px;
+
+  min-height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.call-flex-allbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 200px;
+}
+.call-flex__h1 {
+  text-align: center;
+}
+.call-flex__buttons {
+  margin: 0 auto;
+}
+.call-flex__btn--active {
+  border: 1px solid #064766;
+}

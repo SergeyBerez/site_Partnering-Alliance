@@ -1,0 +1,43 @@
+.footer {
+  margin: 0 auto;
+
+  max-width: 1440px;
+  background: #ffffff;
+}
+
+.footer-flex {
+  margin: 0 auto;
+  max-width: 970px;
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.copirate {
+  font-size: 14px;
+  flex-basis: 250px;
+  color: #526671;
+}
+.footer-menu {
+  margin-left: auto;
+  justify-content: flex-end;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 600px;
+}
+.footer-menu li {
+  margin-left: 10px;
+}
+.footer-menu li a {
+  display: block;
+  color: #526671;
+  padding: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  word-wrap: none;
+}
+.footer-menu li a:hover {
+  border: 1px solid #064766;
+}
