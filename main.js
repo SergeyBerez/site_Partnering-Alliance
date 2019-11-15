@@ -33,11 +33,11 @@ login.addEventListener('click', function(e) {
   });
 });
 
-// setTimeout(function() {
-//   overlay.classList.add('show');
-//   modal.classList.add('show');
-//   overlay.addEventListener('click', function(e) {
-//     overlay.classList.remove('show');
-//     modal.classList.remove('show');
-//   });
-// }, 2000);
+setTimeout(function() {
+  overlay.classList.add('show');
+  modal.classList.add('show');
+  overlay.addEventListener('click', function(e) {
+    overlay.classList.remove('show');
+    modal.classList.remove('show');
+  });
+}, 2000);
