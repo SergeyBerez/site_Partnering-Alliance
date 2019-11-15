@@ -4,7 +4,6 @@ body {
   padding: 0px;
   font-size: 16px;
   color: #373737;
-
   font-family: 'Open Sans', sans-serif;
 }
 /* .outline {
@@ -15,11 +14,13 @@ li {
   margin: 0;
   padding: 0;
 }
+
 .features-wrap {
   margin: 0px auto;
   max-width: 970px;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
+/* <!----------------  3 секция партнеры  --> */
 .parnter-section {
   margin: 0 auto;
   max-width: 1440px;
@@ -37,9 +38,14 @@ li {
 
 .features-flex-parnte-items {
   display: flex;
-  /* align-items: center; */
   margin: 0 -15px;
   min-height: 300px;
+}
+.features_title1 {
+  width: calc(50% - 30px);
+  margin: 15px;
+  padding-left: 30px;
+  background-color: #dfd6d6;
 }
 
 .parnte-items-h2 {
@@ -61,39 +67,36 @@ li {
 
   line-height: 24px;
 }
-.features_title1 {
-  width: calc(100% / 2 - 30px);
-  padding: 10px;
-  /* min-height: 300px; */
-  margin: 15px;
-  padding-left: 50px;
-  background-color: #dfd6d6;
-}
+
+/* 4 секция */
 .kontakt-section {
   margin: 0 auto;
   max-width: 1440px;
-
   background-color: #dfd6d6;
 }
+
 .features-flex-kontakt {
   display: flex;
   align-items: center;
   margin: 0 -15px;
 }
+
 .features_title2 {
   width: calc(50% - 15px);
 
   margin: 15px;
 }
+
 .features_title3 {
   width: calc(50% - 15px);
   background: #ffffff;
 
   margin: 15px;
 }
+
 .form input {
   border: none;
-  border-bottom: 1px solid #000;
+  /* border-bottom: 1px solid #000; */
 }
 .form {
   display: flex;
@@ -130,4 +133,3 @@ label[for='Senden'] {
 textarea {
   border: none;
 }
-
