@@ -1,9 +1,10 @@
 @media all and (max-width: 850px) {
   .menu li:last-child {
-  margin-left: auto;
-}
-  .header-title_h1,.header-title_p {
-   opacity: 0;
+    margin-left: auto;
+  }
+  .header-title_h1,
+  .header-title_p {
+    opacity: 0;
   }
   .header-title_p {
     font-size: 12px;
@@ -55,23 +56,23 @@
   }
 
   .features-flex-parnter {
-  padding: 20px;
-  justify-content: center;
-}
+    padding: 20px;
+    justify-content: center;
+  }
 
-.btn {
- 
-  
-  padding: 5px 20px;
-  font-size: 10px;
-  color: #526671;
-  
-}
+  .btn {
+    padding: 5px 20px;
+    font-size: 10px;
+    color: #526671;
+  }
 
-.features_title2,.features_title3 {
-  padding: 30px;
- 
-}
+  .features_title2,
+  .features_title3 {
+    padding: 30px;
+  }
 
-
+  .features_title3 {
+    top: 20%;
+    left: 10%;
+  }
 }
