@@ -1,10 +1,9 @@
-
 /* гланвый блок особенносит */
 .features-section {
   margin: 0 auto;
   max-width: 1440px;
-  min-height: 1785px;
-  background-color: #e4e1e1;
+  /* min-height: 1785px; */
+  background-color: #e0d4d4;
 }
 
 .features-flex {
@@ -30,21 +29,25 @@
 .features-flex--bg {
   display: flex;
   align-items: center;
-  padding: 0 50px;
-  margin: 0 -50px;
+  padding: 0 15px;
+  margin: 0 -15px;
   background: #ffffff;
-  min-height: 400px;
+ 
 }
 .features_title {
-  /* padding: 0 30px; */
-  /* max-width: 1030px;
+ border-bottom: 1px solid rgb(148, 145, 145);
 
-border: 1px solid #000; */
+ 
+}
+img{
+  max-width: 100%;
 }
 .features_img--pl {
+
   padding-left: 100px;
 }
 .features_img--pr {
+  
   padding-right: 100px;
 }
 .features_h2 {
@@ -58,7 +61,7 @@ border: 1px solid #000; */
   margin: 0 auto;
   max-width: 1440px;
   /* min-height: 480px; */
-  background-image: url("../img/Rectangle 5.png");
+  background-image: url('../img/Rectangle 5.png');
   background-size: cover;
 }
 .call-flex {

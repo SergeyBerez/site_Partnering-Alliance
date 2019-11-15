@@ -4,6 +4,7 @@
   /* min-height: 720px; */
   background-image: url("../img/Group.png");
   background-size: cover;
+  
 }
 .header-nav {
   margin: 0 auto;
@@ -62,7 +63,7 @@
 }
 .header-title_h1 {
   color: #064766;
-  font-size: 45px;
+  /* font-size: 45px; */
   flex-basis: 650px;
 }
 .header-title_h1 span {
