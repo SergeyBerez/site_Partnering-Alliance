@@ -51,7 +51,7 @@ img{
   padding-right: 100px;
 }
 .features_h2 {
-  max-width: 600px;
+  /* max-width: 600px; */
   font-size: 24px;
   color: #22769f;
 }

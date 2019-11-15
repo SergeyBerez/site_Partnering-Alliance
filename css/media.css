@@ -50,4 +50,17 @@
     order: 1;
     margin-left: auto;
   }
+
+  .features-flex-parnter {
+  padding: 30px;
+}
+
+.btn {
+ 
+  
+  padding: 5px 20px;
+  font-size: 10px;
+  color: #526671;
+  
+}
 }
