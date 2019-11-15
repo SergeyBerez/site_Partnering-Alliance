@@ -40,9 +40,9 @@ li {
   flex-wrap: wrap;
   margin: 0 -15px;
   min-height: 300px;
- 
 }
-.features_title1 {
+
+.features_title-parner {
   width: calc(50% - 30px);
   min-width: 250px;
   margin: 15px;
@@ -89,14 +89,15 @@ li {
   width: calc(50% - 30px);
   min-width: 450px;
   margin: 15px;
+ 
 }
 
 .features_title3 {
   min-width: 450px;
   width: calc(50% - 30px);
   background: #ffffff;
-
   margin: 15px;
+  
 }
 
 .form input {
