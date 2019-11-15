@@ -1,12 +1,28 @@
-let a = document.querySelectorAll('a');
-document.addEventListener('click', function(e) {
-  //  e.preventDefault()
+
+
+
+$('.a').on('click', function(e) {
+   e.preventDefault();
+   
+  var atr = $(this).attr('href');
+
+  var position = $(atr).offset().top;
+  
+
+  $('html,body').animate({ scrollTop: position }, 1000);
+
 });
-console.log(a);
+
+// $(document).on('click', function () {
+//   console.log(1);
+//   $(document).scrollTop(500);
+// });
+ 
+
 
 let overlay = document.querySelector('.overlay');
 let modal = document.querySelector('.features_title3');
-console.log(modal);
+
 let login = document.querySelector('[href="#login"]');
 login.addEventListener('click', function(e) {
   overlay.classList.add('show');
@@ -17,11 +33,11 @@ login.addEventListener('click', function(e) {
   });
 });
 
-setTimeout(function() {
-  overlay.classList.add('show');
-  modal.classList.add('show');
-  overlay.addEventListener('click', function(e) {
-    overlay.classList.remove('show');
-    modal.classList.remove('show');
-  });
-}, 2000);
+// setTimeout(function() {
+//   overlay.classList.add('show');
+//   modal.classList.add('show');
+//   overlay.addEventListener('click', function(e) {
+//     overlay.classList.remove('show');
+//     modal.classList.remove('show');
+//   });
+// }, 2000);
