@@ -133,8 +133,13 @@ textarea {
 
 /* форма регистрации */
 .overlay {
+  z-index: 100;
   display: none;
   position: fixed;
+  
+  height: 100vh;
+  align-items:center;
+  justify-content: center;
   top: 0;
   left: 0;
   width: 100%;
@@ -143,15 +148,15 @@ textarea {
   cursor: pointer;
 }
 .features_title3 {
+  
   display: none;
-  position: fixed;
-  top: 20%;
-  left: 60%;
+position: fixed;
+ 
   max-width: 300px;
   background: #ffffff;
 
   box-shadow: 5px 5px 5px rgb(58, 57, 57);
 }
 .show {
-  display: block;
+  display: flex;
 }
