@@ -15,6 +15,7 @@
 }
 
 .featuresr_h1 {
+  
   color: #064766;
   font-size: 36px;
 }
@@ -35,6 +36,7 @@
  
 }
 .features_title {
+  position: relative;
  border-bottom: 1px solid rgb(148, 145, 145);
 
  

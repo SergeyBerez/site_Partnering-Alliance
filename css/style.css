@@ -136,22 +136,21 @@ textarea {
   z-index: 100;
   display: none;
   position: fixed;
-  
+
   height: 100vh;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background: rgba(128, 128, 128, 0.411);
-  cursor: pointer;
+  
 }
 .features_title3 {
-  
   display: none;
-position: fixed;
- 
+  position: fixed;
+
   max-width: 300px;
   background: #ffffff;
 
@@ -159,4 +158,16 @@ position: fixed;
 }
 .show {
   display: flex;
+}
+.span {
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 50px;
+  z-index: 10001;
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+  background: cornsilk;
+  border: 1px solid #000;
 }
