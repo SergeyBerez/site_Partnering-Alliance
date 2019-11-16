@@ -2,11 +2,11 @@
   margin: 0 auto;
   max-width: 1440px;
   /* min-height: 720px; */
-  background-image: url('../img/Group.png');
+  background-image: url('../img/heder_fon1.png');
   background-size: cover;
-  background-color: grey;
- 
+  transition: 0.9s;
 }
+/* url('../img/Layer 1.png'), */
 .header-nav {
   margin: 0 auto;
 
@@ -36,7 +36,7 @@
   display: block;
   color: #526671;
   padding: 5px;
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: none;
   border: 1px solid transparent;
   word-wrap: none;
@@ -47,20 +47,18 @@
 .menu li:last-child {
   margin-left: 100px;
 }
+
 .header-title {
   padding-top: 20%;
   display: flex;
   align-items: center;
-  /* max-width: 970px; */
-  margin: 0 auto;
-  /* background: red; */
-
-  /* justify-content: center; */
-}
+ margin: 0 auto;
+  }
 .header-title_flex {
   display: flex;
   flex-wrap: wrap;
 }
+
 .header-title_h1 {
   color: #064766;
   /* font-size: 45px; */

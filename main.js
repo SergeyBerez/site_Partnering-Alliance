@@ -48,15 +48,6 @@ login.addEventListener('click', function(e) {
   });
 });
 
-// setTimeout(function() {
-//   overlay.classList.add('show');
-//   modal.classList.add('show');
-//   overlay.addEventListener('click', function(e) {
-//     overlay.classList.remove('show');
-//     modal.classList.remove('show');
-//   });
-// }, 2000);
-
 // document.addEventListener('', function(e) {
 //   console.log(`1 высота окна ${document.documentElement.clientHeight} `);
 //   console.log(
@@ -99,3 +90,35 @@ login.addEventListener('click', function(e) {
 //   document.body.before(div);
 //   // body
 // }
+let arrimg = [
+  '/img/heder_fon1.png',
+  '/img/heder_fon2.png',
+  './img/heder_fon4.png',
+  './img/heder_fon5.png',
+];
+let bg = document.querySelector('.header-section-bg');
+let button = document.querySelector('.btn--active');
+let i = 0;
+button.addEventListener('click', function(e) {
+  bg.style.backgroundImage = `url(${arrimg[i]})`;
+  i++;
+  console.log(arrimg[i]);
+  if (i >= arrimg.length) {
+    i = 0;
+  }
+ 
+});
+
+// window.addEventListener('scroll', function(e) {
+//   console.log(was.getBoundingClientRect().top);
+//   if (was.getBoundingClientRect().top == 0) {
+//     setTimeout(function() {
+//       overlay.classList.add('show');
+//       modal.classList.add('show');
+//       overlay.addEventListener('click', function(e) {
+//         overlay.classList.remove('show');
+//         modal.classList.remove('show');
+//       });
+//     }, 500);
+//   }
+// });

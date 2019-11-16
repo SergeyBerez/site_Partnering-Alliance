@@ -1,16 +1,15 @@
 @media all and (max-width: 850px) {
+  
   .menu li:last-child {
     margin-left: auto;
   }
-  .header-title_h1,
-  .header-title_p {
-    font-size: 24px;
-  }
+
   .header-title_p {
     font-size: 12px;
   }
   .featuresr_h1 {
-    font-size: 24px;
+    
+    font-size: 20px;
   }
   .features_p {
     font-size: 12px;
@@ -19,18 +18,17 @@
     padding: 20px;
   }
   .menu {
+    flex-direction: column;
+   
     padding-top: 10%;
     justify-content: center;
   }
+  .menu li a {
+    font-size: 20px;
+  }
   .header-title {
-    padding-top: 20%;
-    display: flex;
-    align-items: center;
-    /* max-width: 970px; */
-    margin: 0 auto;
-    /* background: red; */
-
-    justify-content: center;
+    padding-top: 35%;
+   justify-content: center;
   }
 
   .header-title_flex {
@@ -70,6 +68,4 @@
   .features_title3 {
     padding: 30px;
   }
-
-  
 }
