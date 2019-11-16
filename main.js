@@ -38,3 +38,5 @@ login.addEventListener('click', function(e) {
 //     modal.classList.remove('show');
 //   });
 // }, 2000);
+
+console.log(partner);
