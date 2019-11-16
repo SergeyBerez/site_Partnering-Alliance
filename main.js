@@ -40,7 +40,7 @@ login.addEventListener('click', function(e) {
 
   document.addEventListener('click', function(e) {
     console.log(e.target);
-    if (e.target.className == 'span') {
+    if (e.target.className == 'span' || e.target.className == 'overlay show') {
       overlay.classList.remove('show');
       modal.classList.remove('show');
       document.querySelector('.span').remove();
@@ -57,27 +57,28 @@ login.addEventListener('click', function(e) {
 //   });
 // }, 2000);
 
-document.addEventListener('', function(e) {
-  console.log(`1 высота окна ${document.documentElement.clientHeight} `);
-  console.log(
-    `2 высота всего документа ${document.documentElement.scrollHeight}`,
-  );
-  console.log(`3 текущая прокрутка окна ${document.documentElement.scrollTop}`);
-  // лучше пользовать этим методом
-  console.log(`3 текущая прокрутка окна ${window.pageYOffset}`);
-  //прокрутить окно на оперделенное px число вниз
-  //window.scrollTo(0, 500);
-  //прокрутить окно к элементу
-  //window.scrollTo(0, partner.offsetTop);
+// document.addEventListener('', function(e) {
+//   console.log(`1 высота окна ${document.documentElement.clientHeight} `);
+//   console.log(
+//     `2 высота всего документа ${document.documentElement.scrollHeight}`,
+//   );
+//   console.log(`3 текущая прокрутка окна ${document.documentElement.scrollTop}`);
+//   // лучше пользовать этим методом
+//   console.log(`3 текущая прокрутка окна ${window.pageYOffset}`);
+//   //прокрутить окно на оперделенное px число вниз
+//   //window.scrollTo(0, 500);
+//   //прокрутить окно к элементу
+//   //window.scrollTo(0, partner.offsetTop);
 
-  //получем где находится елемент
-  console.log(`4 элемент  partner находится ${partner.offsetTop}`);
-  //плучаем родителя  только нужно указать ему позишион relative
-  console.log(partner.offsetParent);
-  // координати где был клик
-  console.log('5 собитие мыши относительно документа  ' + e.pageY);
-  console.log(' 6 собитие мыши относительно елемента  ' + e.offsetY);
-});
+//   //получем где находится елемент
+//   console.log(`4 элемент  partner находится ${partner.offsetTop}`);
+//   //плучаем родителя  только нужно указать ему позишион relative
+//   console.log(partner.offsetParent);
+//   // координати где был клик
+//   console.log('5 собитие мыши относительно документа  ' + e.pageY);
+//   console.log(' 6 собитие мыши относительно елемента  ' + e.offsetY);
+// });
+
 // document.addEventListener('mousemove', function (e) {
 //   // console.log(e.offsetY);
 //   // console.log(e.offsetX);
