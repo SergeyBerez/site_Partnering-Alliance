@@ -145,7 +145,6 @@ textarea {
   width: 100%;
   height: 100%;
   background: rgba(128, 128, 128, 0.411);
-  
 }
 .features_title3 {
   display: none;
@@ -161,13 +160,12 @@ textarea {
 }
 .span {
   position: absolute;
-  display: block;
-  width: 100px;
-  height: 50px;
+
+  padding: 10px;
   z-index: 10001;
   cursor: pointer;
   text-align: center;
-  line-height: 50px;
-  background: cornsilk;
-  border: 1px solid #000;
+  color: rgb(92, 98, 179);
+  background: rgba(189, 191, 199, 0.966);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.603);
 }

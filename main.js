@@ -31,20 +31,16 @@ login.addEventListener('click', function(e) {
         div.classList.add('span');
         div.style.top = coordTop + 'px';
         div.style.left = coordLeft + 'px';
-
         div.textContent = 'close';
         document.body.before(div);
       }
-
-      // body
     },
     { once: true },
   );
 
-  document.addEventListener('click', function (e) {
-      console.log(e.target);
+  document.addEventListener('click', function(e) {
+    console.log(e.target);
     if (e.target.className == 'span') {
-    
       overlay.classList.remove('show');
       modal.classList.remove('show');
       document.querySelector('.span').remove();
