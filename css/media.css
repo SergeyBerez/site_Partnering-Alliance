@@ -4,7 +4,7 @@
   }
   .header-title_h1,
   .header-title_p {
-    opacity: 0;
+    font-size: 24px;
   }
   .header-title_p {
     font-size: 12px;
