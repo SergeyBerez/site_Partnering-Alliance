@@ -27,7 +27,7 @@
     font-size: 20px;
   }
   .header-title {
-    padding-top: 35%;
+    padding-top: 40%;
    justify-content: center;
   }
 
@@ -54,7 +54,7 @@
   }
 
   .features-flex-parnter {
-    padding: 20px;
+    padding: 40px;
     justify-content: center;
   }
 
@@ -66,6 +66,6 @@
 
   .features_title2,
   .features_title3 {
-    padding: 30px;
+    padding: 40px;
   }
 }
