@@ -15,7 +15,6 @@
 }
 
 .featuresr_h1 {
-  
   color: #064766;
   font-size: 36px;
 }
@@ -33,23 +32,18 @@
   padding: 0 15px;
   margin: 0 -15px;
   background: #ffffff;
- 
 }
 .features_title {
   position: relative;
- border-bottom: 1px solid rgb(148, 145, 145);
-
- 
+  border-bottom: 1px solid rgb(148, 145, 145);
 }
-img{
-  max-width: 100%;
+img {
+  /* max-width: 100%; */
 }
 .features_img--pl {
-
   padding-left: 100px;
 }
 .features_img--pr {
-  
   padding-right: 100px;
 }
 .features_h2 {
