@@ -75,3 +75,16 @@ button.addEventListener('click', function(e) {
     i = 0;
   }
 });
+
+let btn = document.querySelector('.btn-up-js');
+document.addEventListener('scroll', function(e) {
+  if (window.pageYOffset > '200') {
+    btn.style.display = 'block';
+  } else {
+    btn.style.display = 'none';
+  }
+});
+
+btn.addEventListener('click', function(e) {
+  $('html,body').animate({ scrollTop: 0 }, 1000);
+});
